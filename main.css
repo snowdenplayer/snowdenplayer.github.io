@@ -99,12 +99,13 @@ h2{
 			height: 30px;
 		}
 	}
+	
 @media (min-width: 768px){
 	.menu{
 		display: block;
 		position: absolute;
-		top: 51px;
-		left: 51px;
+		top: 23px;
+		left: 23px;
 	}
 	.menu-wrap{
 		
@@ -164,8 +165,14 @@ h2{
 		.header__logo_wrap{
 
 		}
-		.
 
+
+	}
+	@media (min-width: 1240px){
+		.menu{
+			top: 51px;
+			left: 51px;
+		}
 
 	}
 
